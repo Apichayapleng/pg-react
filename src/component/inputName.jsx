@@ -27,6 +27,7 @@ class InputName extends Component {
     const arrList = this.state.arr;
     return (
       <div className="inputName m-5">
+        <h1>NAME LIST</h1>
         <form onSubmit={this.handleSubmit}>
           <label>
             Name:
