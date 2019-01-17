@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class inputName extends Component {
+class InputName extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,6 +20,7 @@ class inputName extends Component {
     this.state.arr.push(this.state.value);
     this.setState(this.state);
     event.preventDefault();
+    alert("Add name success", this.state.value);
   }
 
   render() {
@@ -44,4 +45,4 @@ class inputName extends Component {
   }
 }
 
-export default inputName;
+export default InputName;

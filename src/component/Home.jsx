@@ -3,11 +3,12 @@ import React, { Component } from "react";
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { link: ["http://www.google.com"] };
   }
 
   render() {
-    return <div className="m-4" />;
+    // const link = this.state.link;
+    return <div className="m-4">{/* <a href="${link}">gg</a> */}</div>;
   }
 }
 
